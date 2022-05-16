@@ -1,3 +1,5 @@
+import { FormEvent } from 'react'
+
 export function LoginContentForm() {
 
 	function handleLoginSubmit(event: FormEvent) {
@@ -24,7 +26,7 @@ export function LoginContentForm() {
 
 					<button 
 						className="bg-yellow-500 text-black w-28 h-11 rounded-full font-semibold text-sm leading-9"
-
+						type="submit"
 						>Login Now</button>
 				</form>
 			</div>
